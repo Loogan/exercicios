@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    background-color:rgb(79, 89, 100)
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+#container{
+    height: 600px;
+    width: 600px;
+    background: linear-gradient(to bottom right,#b51f1a, #f98ef6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 300px; 
+}
+
+#container2{
+    height: 560px;
+    width: 560px;
+    background-color: rgb(240, 219, 227);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 300px; 
+}
+
+#box-exercices{
+    
+    color: rgb(0, 0, 0);
+}
+
+#box-exercices a{
+    color: rgb(0, 19, 128);
+}
+
+
