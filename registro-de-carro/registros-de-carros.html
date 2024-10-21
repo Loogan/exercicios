@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de carros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="containerCarros">   
+        <a id="voltar" href="../index.html">< Voltar</a>
+        <h1>Registro de carros</h1>
+        <hr>
+        <div id="inputs">
+            <div class="estilo">
+                <label for="marca">Marca:</label>
+                <input type="text" id="marca" name="marca">
+            </div>
+            <div class="estilo">
+                <label for="modelo">Modelo:</label>
+                <input type="text" id="modelo" name="modelo">
+            </div>
+            <div class="estilo">
+                <label for="ano">Ano:</label>
+                <input type="number" id="ano" name="ano">
+            </div>
+            <div class="estilo">
+                <label for="quilometragem">Quilometragem:</label>
+                <input type="number" id="quilometragem" name="quilometragem">
+            </div>
+        </div>
+        <div id="buttons">
+            <button type="button" id="limpar">Limpar</button>
+            <button type="button" id="registrar">Registrar</button>
+        </div>
+   
+        <hr>
+   
+        <div id="alerta">
+            <table id="tabela">
+                <tr>
+                    <th>Marca</th>
+                    <th>Modelo</th>
+                    <th>Ano</th>
+                    <th>Quilometragem</th>
+                    <th>KM/Ano</th>
+                </tr>
+            </table>
+
+            </div>
+            <p>Carros registrados: <span id="registrados">0</span></p>
+            <p>Carros com mais de 100mil KM: <span id="rodados">0</span</p>
+    </div>
+    
+
+    <script src="main.js"></script>
+
+</body>
+</html>

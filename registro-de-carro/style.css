@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3d4b55;
+}
+
+#voltar{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(28, 106, 143, 0.664);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#containerCarros{
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 800px;;
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+.estilo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+#inputs{
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    width: 155px;
+    height: 35px;
+    border: none;
+    box-shadow: 0px 0px 3px rgba(7, 40, 56, 0.664);
+    border-radius: 5px;
+}
+
+#buttons{
+    display: flex;
+    margin-top: 20px;
+    justify-content: end;
+    gap: 10px;
+    height: 40px;
+}
+
+#limpar{
+    border: none;
+    background-color: rgba(245, 245, 220, 0)   
+}
+
+#registrar{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(28, 106, 143, 0.664);
+    color: white;
+}
+
+#registrar:hover{
+    background-color: rgba(44, 132, 173, 0.459);
+}
+
+hr{
+    margin: 20px 0;
+}
+
+#alerta{
+
+}
+
+table{
+    width: 100%;
+}
+
+tr{
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+    
+}
+
+th{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(13, 13, 37);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+td{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
